@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsActive_Read_Only</fullName>
+    <active>false</active>
+    <errorConditionFormula>IsActive = true
+&amp;&amp; 
+$Profile.Name  = &apos;Shop Employee&apos;</errorConditionFormula>
+    <errorDisplayField>IsActive</errorDisplayField>
+    <errorMessage>You can&apos;t change value of this field as a shop employee. You need your manager approve</errorMessage>
+</ValidationRule>
