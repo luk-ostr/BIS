@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrderWithoutAddressCantBeSent</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(ISPICKVAL(Status , &apos;Sent&apos;),
+(ISBLANK(ShippingCity) = true),
+(ISBLANK(ShippingCountry) = true),
+(ISBLANK(ShippingPostalCode) = true),
+(ISBLANK(ShippingState) = true),
+(ISBLANK(ShippingStreet) = true))</errorConditionFormula>
+    <errorMessage>Uzupełnij Shipping address</errorMessage>
+</ValidationRule>
