@@ -86,6 +86,11 @@
         <name>ValidationRule</name>
     </types>
     <types>
+        <members>Sales Dashboards</members>
+        <members>Sales Dashboards/UdGmYNFiPbujTBDRIcCoHbvNdQpiOL</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Shop Employee</members>
         <members>Shop External User</members>
         <members>Admin</members>
