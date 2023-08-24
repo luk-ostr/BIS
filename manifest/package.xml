@@ -22,6 +22,7 @@
         <members>Product2.Default_VAT_Rate__c</members>
         <members>Product2.External_Product_Id__c</members>
         <members>Product2.Status__c</members>
+        <members>Opportunity.StageName</members>
         <members>Order.Account_is_Company__c</members>
         <members>Order.Require_Invoice__c</members>
         <members>Order.Total_Gross_Price__c</members>
@@ -83,8 +84,13 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>Sales Reports/Orders_with_Products_Report_NfS</members>    
+        <name>Report</name>
+    </types>
     <type>
         <member>VAT_Rates</member>
+        <member>OpportunityStage</member>
         <name>StandardValueSet</name>
     </type>
     <types>
