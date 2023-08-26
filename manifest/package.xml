@@ -22,6 +22,7 @@
         <members>Product2.Default_VAT_Rate__c</members>
         <members>Product2.External_Product_Id__c</members>
         <members>Product2.Status__c</members>
+        <members>Opportunity.StageName</members>
         <members>Order.Account_is_Company__c</members>
         <members>Order.Require_Invoice__c</members>
         <members>Order.Total_Gross_Price__c</members>
@@ -30,6 +31,12 @@
         <members>OrderItem.VAT_Rate__c</members>
         <members>OrderItem.VAT_Value__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Order_Notification</members>
+        <members>Order_Notification/Order_Status_Sent</members>
+        <members>Order_Notification/Order_Status_Submitted</members>
+        <name>EmailTemplate</name>
     </types>
     <types>
         <members>Account_Record_Page</members>
@@ -77,13 +84,23 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>Sales Reports/Orders_with_Products_Report_NfS</members>    
+        <name>Report</name>
+    </types>
     <type>
         <member>VAT_Rates</member>
+        <member>OpportunityStage</member>
         <name>StandardValueSet</name>
     </type>
     <types>
      <members>*</members>
         <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Sales Dashboards</members>
+        <members>Sales Dashboards/UdGmYNFiPbujTBDRIcCoHbvNdQpiOL</members>
+        <name>Dashboard</name>
     </types>
     <types>
         <members>Shop Employee</members>
