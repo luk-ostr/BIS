@@ -77,10 +77,14 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
-    <type>
-        <member>VAT_Rates</member>
+    <types> 
+        <members>Opportunity.StageName</members>
+        <name>CustomField</name> 
+    </types> 
+    <types> 
+        <members>OpportunityStage</members>
         <name>StandardValueSet</name>
-    </type>
+    </types> 
     <types>
      <members>*</members>
         <name>ValidationRule</name>
