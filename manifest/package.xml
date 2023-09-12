@@ -84,15 +84,19 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
+    <types> 
+        <members>Opportunity.StageName</members>
+        <name>CustomField</name> 
+    </types> 
     <types>
         <members>Sales Reports/Orders_with_Products_Report_NfS</members>    
         <name>Report</name>
     </types>
-    <type>
+    <types>
         <member>VAT_Rates</member>
         <member>OpportunityStage</member>
         <name>StandardValueSet</name>
-    </type>
+    </types> 
     <types>
      <members>*</members>
         <name>ValidationRule</name>
